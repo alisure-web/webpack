@@ -3,6 +3,7 @@
  */
 
 /* 导入模块 */
-var greeter = require("./greeter.js");
+var greeter = require("./js/greeter.js");
+require("./css/style.css");
 
 document.getElementById("root").appendChild(greeter());
